@@ -43,7 +43,7 @@ function showSvg (btn,itemName){
     btn.innerHTML = 
         `
         <svg width="50" height="50">
-            <use href="/sprite.svg#${itemName}"></use>
+            <use href="./sprite.svg#${itemName}"></use>
         </svg>
     `;
 }
